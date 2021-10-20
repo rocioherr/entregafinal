@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*HOME*/
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 410px;
+}
+
+.logo img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*Header todas las secciones*/
+.header {
+  padding: 50px;
+  background-color: aquamarine;
+  text-align: center;
+  height: 700px;
+  color: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+  background: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+  -webkit-animation-name: fondito;
+          animation-name: fondito;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  background-size: 1000% 1000%;
+  line-height: 15;
+  min-height: 50vh;
+}
+
+.header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+@-webkit-keyframes fondito {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 90% 0%;
+  }
+  100% {
+    background-position: 90% 0%;
+  }
+}
+
+@keyframes fondito {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 90% 0%;
+  }
+  100% {
+    background-position: 90% 0%;
+  }
+}
+
+/*barra de navegacion*/
+.nav-item {
+  background-color: white;
+}
+
+.nav-pills .nav-link.active {
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.nav-link {
+  color: black;
+}
+
+/*secciones header*/
+.estructura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aside {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.aside img {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  padding: 10px;
+  -webkit-transition: all 2000ms;
+  transition: all 2000ms;
+}
+
+.aside img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.sectionConocenos {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  background-color: black;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.sectionConocenos img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  background-color: #FFFEAC;
+  padding: 50px;
+  text-align: all;
+  color: white;
+  font-size: 50px;
+  width: auto;
+  height: auto;
+}
+
+/*footer todas las secciones*/
+.footer {
+  width: 1349px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 200px;
+  text-align: center;
+  background-color: #CAEDFF;
+  padding: 50px;
+  background-color: aquamarine;
+  color: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+  background: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+  -webkit-animation-name: fondito;
+          animation-name: fondito;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  background-size: 1000% 1000%;
+}
+
+.footer img {
+  width: 50px;
+  height: 50px;
+  margin: 85px;
+  -webkit-transition: all 2000ms;
+  transition: all 2000ms;
+}
+
+.footer img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+@keyframes fondito {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 90% 0%;
+  }
+  100% {
+    background-position: 90% 0%;
+  }
+}
+
+/*media querys*/
+@media all and (max-width: 600px) {
+  nav, .row, header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  div .section {
+    width: 100%;
+    height: auto;
+    margin-left: none;
+    padding: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  div .aside {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .logo {
+    width: 70%;
+    margin-left: 25%;
+  }
+}
+
+/*CURSOS*/
+table {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-size: 15px;
+}
+
+th, td {
+  padding: 2%;
+}
+
+thead {
+  background-color: #F2FFFC;
+  color: white;
+}
+
+tr:hover {
+  background-color: #FCF2FF;
+  color: white;
+}
+
+/*CONOCENOS*/
+div a img {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+}
+
+/*CONTACTANOS*/
+form {
+  background-color: black;
+  color: white;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: auto;
+  height: 600px;
+}
+
+input {
+  margin-top: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#F2FFFC), color-stop(#F2FFFF), color-stop(#F8F2FF), to(#FFF2FF));
+  background: linear-gradient(to right, #F2FFFC, #F2FFFF, #F8F2FF, #FFF2FF);
+}
+
+input:focus {
+  outline: none;
+  background: red -webkit-gradient(linear, right top, left top, from(#F2FFFC), color-stop(#F2FFFF), color-stop(#F8F2FF), to(#FFF2FF));
+  background: red linear-gradient(to left, #F2FFFC, #F2FFFF, #F8F2FF, #FFF2FF);
+}
+
+textarea {
+  width: 600px;
+  height: 150px;
+  background: -webkit-gradient(linear, left top, right top, from(#F2FFFC), color-stop(#F2FFFF), color-stop(#F8F2FF), to(#FFF2FF));
+  background: linear-gradient(to right, #F2FFFC, #F2FFFF, #F8F2FF, #FFF2FF);
+}
+
+label {
+  margin-top: 15px;
+}
+
+/*boton wp*/
+.boton {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 20px;
+  right: 10px;
+  margin-right: 8px;
+  margin-bottom: 1px;
+}
+
+.volver {
+  font-size: 15px;
+  color: black;
+}
+
+/*bootstrap*/
+.dropdown {
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  border-style: none;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: pink;
+}
+
+.btn .focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card-body {
+  font-size: 15px;
+  color: black;
+  font-style: oblique;
+}
+
+.btn-link {
+  color: black;
+  background-color: white;
+}
+
+.btn-link:hover {
+  background-color: #FCF2FF;
+}
+
+.card-header {
+  background-color: #FCF2FF;
+}
+/*# sourceMappingURL=estilos.css.map */

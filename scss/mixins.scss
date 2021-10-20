@@ -1,0 +1,60 @@
+@mixin tituloheader{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: $tamañotitulos;
+        color: $colortitulos;
+} 
+
+@mixin logo{
+    width:100px;
+	height:100px;
+	margin-left: 410px;
+}
+
+@mixin header{
+    padding: 50px;
+	background-color: aquamarine;
+	text-align: center;
+	height: 700px;
+	color: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+	background: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+	animation-name: fondito;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+	animation-delay: 0;
+	background-size: 1000% 1000%;
+	line-height: 15;
+	min-height: 50vh;
+}
+
+@mixin footer{
+    width: 1349px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 200px;
+	text-align: center;
+	background-color: #CAEDFF;
+	padding: 50px;
+	background-color: aquamarine;
+	color: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+	background: linear-gradient(-45deg, #DD91FC, #EBBCFE, #D0BCFE, #BCDBFE, #BBF0EB, #BBF0C8, #FEFFB2, #FFC5AA, #FFC5E2, #D6BBF0);
+	animation-name: fondito;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+	animation-delay: 0;
+	background-size: 1000% 1000%;
+}
+
+@mixin redes ($nombre){
+    @if $nombre == instagram{
+        color: rgb(238, 111, 227);
+    }@else if $nombre == facebook{
+        color: rgb(55, 55, 121);
+    }@else{
+        color: black;
+    }
+}
