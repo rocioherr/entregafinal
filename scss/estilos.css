@@ -159,7 +159,7 @@ body {
 }
 
 /*footer todas las secciones*/
-.footer {
+footer {
   width: 1349px;
   height: auto;
   display: -webkit-box;
@@ -189,7 +189,7 @@ body {
   background-size: 1000% 1000%;
 }
 
-.footer img {
+footer img {
   width: 50px;
   height: 50px;
   margin: 85px;
@@ -197,7 +197,7 @@ body {
   transition: all 2000ms;
 }
 
-.footer img:hover {
+footer img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -212,6 +212,11 @@ body {
   100% {
     background-position: 90% 0%;
   }
+}
+
+.redes {
+  width: 60px;
+  height: 60px;
 }
 
 /*media querys*/
@@ -245,7 +250,7 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  .footer {
+  footer {
     width: 100%;
     height: auto;
     -webkit-box-orient: vertical;
@@ -276,16 +281,21 @@ th, td {
 }
 
 thead {
-  background-color: #F2FFFC;
+  background-color: #befff0;
   color: white;
 }
 
 tr:hover {
-  background-color: #FCF2FF;
+  background-color: #cdafd6;
   color: white;
 }
 
 /*CONOCENOS*/
+.nosotras {
+  width: 200px;
+  height: 200px;
+}
+
 div a img {
   width: 200px;
   height: 200px;
@@ -383,10 +393,10 @@ label {
 }
 
 .btn-link:hover {
-  background-color: #FCF2FF;
+  background-color: pink;
 }
 
 .card-header {
-  background-color: #FCF2FF;
+  background-color: #e1cae8;
 }
 /*# sourceMappingURL=estilos.css.map */
