@@ -141,46 +141,7 @@ footer img:hover {
 	height: 60px
 }
 
-/*media querys*/
 
-@media all and (max-width: 600px){
-	nav, .row, header{
-		flex-direction: row;
-		align-items: center;
-		width: 100%;
-		height: 100%;
-	}
-}
-
-@media all and (max-width: 600px){
-    div .section{
-        width:100%;
-        height:auto;
-        margin-left: none;
-        padding: none;
-    }
-}
-
-@media all and (max-width: 600px){
-    div .aside{
-        text-align: center;
-    }
-}
-
-@media all and (max-width: 600px){
-    footer{
-        width:100%;
-        height:auto;
-        flex-direction: column;
-    }
-}
-
-@media all and (max-width: 600px){
-    .logo{
-        width:70%;
-        margin-left: 25%;
-    }
-}
 
 /*CURSOS*/
 
@@ -322,3 +283,44 @@ label {
 .card-header {
  	background-color: #e1cae8;
  }
+
+ /*media querys*/
+
+@media all and (max-width: 600px){
+	nav, .row, header{
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media all and (max-width: 600px){
+    div .section{
+        width:100%;
+        height:auto;
+        margin-left: none;
+        padding: none;
+    }
+}
+
+@media all and (max-width: 600px){
+    div .aside{
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 600px){
+    footer{
+        width:100%;
+        height:auto;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 600px){
+    .logo{
+        width:70%;
+        margin-left: 25%;
+    }
+}
